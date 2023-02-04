@@ -1,0 +1,95 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0; box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+} 
+
+body{
+background: url("https://source.unsplash.com/1600x900/?landscape") top center;
+background-repeat: no-repeat;
+
+height: 100vh;
+width: 100vw;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+div.caixa-maior{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(241, 245, 220, 0.747);
+    box-shadow: inset 0px 0px 30px #f8a10093;
+
+    width: 90%;
+    max-width: 420px;
+    min-width: 250px;
+    }
+
+div.caixa-media{
+    margin-top: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.144);
+}
+
+div.caixa-menor{
+display: flex;
+align-items: center;
+}
+ img.iconeNuvem{
+  margin-left: 10px;
+ }
+
+input{
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    border:none;    
+    padding: 10px;
+    border-radius: 10px;
+    width: calc(100% -100px);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+    }
+
+input:focus-within{
+    background-color: rgba(255, 228, 196, 0.664);    
+}
+
+#place::placeholder{
+    color:black;
+     
+}
+
+.imagem-lupa{
+    height: 15px;
+    outline: none;
+}
+
+button{
+    border: none;    
+    background-color: rgba(255, 228, 196, 0.61);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.288);
+    padding: 8px;
+    border-radius: 50px;
+    float: right;
+    
+}
+
+button:hover{
+    background-color: rgba(255, 196, 196, 0.788);
+    cursor: pointer;
+}
+
+.temp{
+    margin-top: 20px;    
+}
+
+.descricao{
+    margin-top: 20px;
+    margin-bottom:20px; 
+    text-transform: capitalize;   
+}
+
+
+
+
+
